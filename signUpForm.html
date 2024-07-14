@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-Up-Form</title>
+    <link rel="stylesheet" href="/signUp.css" />
+  </head>
+  <body>
+    <div id="textContainer">
+      <h1>
+        Sign up to try our product that surely exists
+        <p>@realProduct.com</p>
+      </h1>
+    </div>
+    <div id="partition">
+      <div id="container">
+        <h3>Fields with a * are required</h3>
+        <form>
+          <div>
+            <label for="firstName">First Name *</label>
+            <input type="text" id="firstName" required />
+          </div>
+          <div>
+            <label for="lastName">Last Name *</label>
+            <input type="text" id="lastName" required />
+          </div>
+          <div>
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" required />
+          </div>
+          <div>
+            <label for="phoneNumber">Phone Number</label>
+            <input type="number" id="phoneNumber" />
+          </div>
+          <div>
+            <label for="password">Password *</label>
+            <input type="password" id="password" required min="4" />
+          </div>
+          <div>
+            <label for="password">Confirm Password *</label>
+            <input type="password" id="confirmedPassword" required />
+          </div>
+          <button type="submit">Sign In</button>
+        </form>
+        <h2>Already have an account? Login</h2>
+      </div>
+    </div>
+  </body>
+</html>
